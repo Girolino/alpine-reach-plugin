@@ -22,7 +22,8 @@ Goal: a ready recipe ("make these three ads, sending people here") backed by ads
 - **Proof that an ad works** is time running. An ad running 30 days or more (`daysRunning`, `runningOver30Days`) is the strongest public signal; the Ad Library shows no sales or spend. Never call an ad "validated" or "converting"; say "has run for N days".
 - **Format**: compare the format mix of all sampled ads with the formats of the longest running ads. The format to start with is the one that dominates among ads past 30 days, not the most common one overall.
 - **Hook**: read `openingLine` of the longest running ads. Name the patterns (question, promise with a number, pain, proof, direct offer) and quote two or three real opening lines with their advertiser and days running.
-- **Destination**: `destinations` tells sales page vs checkout vs WhatsApp. Match it to price with `priceMentions`: say which destination the advertisers use for offers near the person's price. If no ad mentions a nearby price, say so and use the closest band.
+- **Price bands**: group the ads by the prices in `priceMentions` (for example under 100, 100 to 200, 200 to 1,000, above 1,000 in the person's currency). If no tracked advertiser advertises a price in the person's band, say that plainly in the first lines and say which neighbouring bands the recipe is inferred from.
+- **Destination and temperature**: `destinations` tells sales page vs checkout vs WhatsApp. Keep two groups apart: ads that send people to a sales page with the price visible (made to reach new people), and low-price ads that go straight to checkout (usually impulse offers or retargeting of people who already know the seller; the Ad Library does not show targeting, so say "likely"). Do not mix their numbers into one recipe.
 - **Tests**: in `recentTests`, a test with most ads stopped and one or two still running shows which variant the advertiser kept. Use `survivors` as the strongest per-advertiser evidence. Proof level `early` or `low` is weak; say so.
 - **Cadence**: `launchedLast7` and `stoppedLast7` show how fast advertisers rotate creatives; use it to suggest how many new ads per week.
 
@@ -36,6 +37,10 @@ Lead with the recipe, then the evidence. Keep it short.
 4. **Limits**: data age, sample size (`sampledAds` of `activeAds`), and that time running is a proxy, not sales.
 
 ## Rules
+
+- Every claim carries its evidence: a count ("12 of 40 sampled ads", "ran 63 days") and at least one Ad Library link (`adLibraryUrl`).
+- The tool returns ad text, opening line, format and destination, not what happens inside a video (who is on camera, captions, when the price or call to action is spoken). Say so when the person asks about video structure; do not guess it.
+- Never carry advertisers' income claims, results or promises into the person's ads. Model the structure, not the claims; write copy the person can prove.
 
 - Answer in the language the person writes in. Write numbers and prices the way that language and the workspace's country do (for Brazilian Portuguese: R$ 1.234,56).
 - Use only data the tool returned. Do not invent advertisers, ads, numbers or links.
