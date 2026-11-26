@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alpine-reach": {
+      "type": "http",
+      "url": "https://app.alpinereach.io/api/mcp"
+    }
+  }
+}

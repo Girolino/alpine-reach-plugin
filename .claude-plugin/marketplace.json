@@ -1,0 +1,14 @@
+{
+  "name": "alpine-reach",
+  "owner": {
+    "name": "Alpine Reach",
+    "url": "https://www.alpinereach.io"
+  },
+  "plugins": [
+    {
+      "name": "alpine-reach",
+      "source": "./",
+      "description": "Marketing answers for your agent from your Alpine Reach workspace."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "alpine-reach",
+  "displayName": "Alpine Reach",
+  "description": "Marketing answers for your agent from your Alpine Reach workspace: what the advertisers you track run on Meta, which ad formats keep running, where their ads send people, plus your content, calendar, drafts and strategy.",
+  "author": {
+    "name": "Alpine Reach",
+    "url": "https://www.alpinereach.io"
+  },
+  "homepage": "https://www.alpinereach.io",
+  "repository": "https://github.com/Girolino/alpine-reach-plugin",
+  "license": "MIT",
+  "keywords": ["marketing", "ads", "meta-ads", "competitors", "social-media", "content", "instagram"]
+}
