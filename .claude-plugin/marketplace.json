@@ -4,6 +4,7 @@
     "name": "Alpine Reach",
     "url": "https://www.alpinereach.io"
   },
+  "description": "The Alpine Reach plugin: marketing answers for AI agents from an Alpine Reach workspace.",
   "plugins": [
     {
       "name": "alpine-reach",
