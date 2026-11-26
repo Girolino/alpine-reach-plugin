@@ -9,5 +9,16 @@
   "homepage": "https://www.alpinereach.io",
   "repository": "https://github.com/Girolino/alpine-reach-plugin",
   "license": "MIT",
-  "keywords": ["marketing", "ads", "meta-ads", "competitors", "social-media", "content", "instagram"]
+  "keywords": [
+    "marketing",
+    "ads",
+    "meta-ads",
+    "competitors",
+    "social-media",
+    "content",
+    "instagram"
+  ],
+  "privacyPolicyUrl": "https://www.alpinereach.io/legal/privacy-policy",
+  "termsOfServiceUrl": "https://www.alpinereach.io/legal/terms-of-service",
+  "supportUrl": "https://github.com/Girolino/alpine-reach-plugin/issues"
 }
